@@ -1,0 +1,44 @@
+{
+  "building": {
+    "name": "Simple Office Building",
+    "address": "123 Main St, Anytown",
+    "floors": [
+      {
+        "floorNumber": 1,
+        "height": 3.0,
+        "rooms": [
+          {
+            "roomID": "101",
+            "name": "Conference Room",
+            "area": 30.0
+          },
+          {
+            "roomID": "102",
+            "name": "Office",
+            "area": 15.0
+          }
+        ]
+      },
+      {
+        "floorNumber": 2,
+        "height": 3.0,
+        "rooms": [
+          {
+            "roomID": "201",
+            "name": "Lounge",
+            "area": 25.0
+          },
+          {
+            "roomID": "202",
+            "name": "Break Room",
+            "area": 20.0
+          }
+        ]
+      }
+    ],
+    "site": {
+      "width": "2000 ft",
+      "length": "2500 ft"
+    }
+  }
+}

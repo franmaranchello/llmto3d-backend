@@ -47,7 +47,6 @@ async def get_building(request: Request):
         run = client.beta.threads.runs.create_and_poll(
             thread_id=thread.id,
             assistant_id=ASSISTANT_ID,
-            instructions="Provide the answer in the specified JSON format."
         )
 
         # Step 5: Check if the run is completed
