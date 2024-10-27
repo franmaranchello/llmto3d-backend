@@ -63,7 +63,7 @@ async def get_building(request: Request):
                 # Access the text content correctly
                 if hasattr(assistant_response.content[0], 'text'):
                     response_text = assistant_response.content[0].text.value
-                    return {"message": response_text}
+                    return response_text
                 else:
                     return {"message": "Assistant response has no text content."}
             else:
